@@ -1,0 +1,559 @@
+*{margin: 0px; padding: 0px;}
+
+/*font-family: 'Julius Sans One', sans-serif;*/
+/*font-family: 'Sora', sans-serif;*/
+/*font-family: 'Walter Turncoat', cursive;*/
+
+body{width: 100%; 
+    font-size: 14px; 
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    min-width: 1200px;}
+
+.header{
+    margin:auto;
+    padding: 20px;
+    width:60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bg-header {
+    background: black;
+    width: 100%;
+}
+
+.logo {
+    width: 80px;  
+}
+
+.search-icon {
+    color: white; 
+    margin-right: 10px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    color: white; 
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.user {
+    color: white; 
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+#buscador {
+    background: white;
+    border: 0px solid;
+    border-radius: 20px;
+    padding: 0.5em 2em;
+    outline: none;  
+}
+
+#mail, #nombre{
+    background: rgb(110, 25, 25);
+    border: 0px solid;
+    border-radius: 20px;
+    padding: 0.5em 2em;
+    outline: none; 
+}
+
+#nombre::placeholder {
+    color: white;
+}
+
+#mail::placeholder {
+    color: white;
+}
+
+#buscador::placeholder {
+    color: red; 
+    font-family: 'Lato', sans-serif;   
+}
+
+#comentario::placeholder {
+    font-family: 'Lato', sans-serif;   
+    padding: 2px
+}
+
+#comentario {
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none; 
+    resize: none; 
+}
+
+.comentario-form {
+    font-size: 16px;
+    margin: 20px 0 5px 0;
+}
+
+.box-comentario {
+    margin-bottom: 40px
+}
+
+.name label {
+    font-size: 16px;
+    margin: 20px 0 5px 0;
+}
+
+.email label {
+    font-size: 16px;
+    margin: 20px 0 5px 0;
+}
+
+.reservas fieldset {
+    padding: 20px;
+    border-radius: 5px
+}
+
+.reserva-title {
+    margin-bottom: 10px
+}
+
+.spam {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.btn-enviar {
+    text-align: right;
+    margin-bottom: 40px
+}
+
+.btn-enviar button{
+    padding: 10px 20px
+}
+
+#buscador:focus{
+   background-color: rgb(166, 34, 34) ;
+   color: white;
+}
+
+
+.navegador{
+    background:black;
+    padding: 2em 0em;
+}
+nav ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    list-style:none;
+    margin: auto; 
+    text-align: center;     
+}
+
+nav a{
+    text-decoration: none;
+    padding:4em auto;
+    color: white;  
+}
+
+nav a:hover{
+    color: maroon;
+}
+
+.banner{
+    background: url(img/restaurant3.jpg) top fixed;
+    background-size: 100% 100%;
+    opacity: 1;
+    width: 100%;
+    height: 400px;
+
+    
+}
+
+.text{
+    margin: auto;
+    color:white;
+    text-align: center;
+    padding:120px;
+    width: 60%;
+    font-size: 1.2em;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    
+}
+
+.text a{
+    font-size:1.3em;
+    border: 4px solid maroon;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 2em auto 2em auto;
+    width: 20%;
+    padding: 0.5em ;
+}
+
+.text a:hover{
+    border: 4px solid rgb(203, 13, 13);
+    color: rgb(203, 13, 13);
+    transition: color 1s, border 1s;
+}
+
+.novedades{
+    padding: 3em 0;
+    width:65%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.novedades-fondo {
+    background-color: rgb(110, 25, 25) ;
+    width: 100%;
+}
+
+.novedades h2{
+    width:100%;
+    margin-bottom: 1em;
+    color: white;
+    font-weight: bold;
+}
+
+.articles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: auto;
+}
+
+.novedades article{
+    width: 40%;
+    display: flex;
+    position: relative; 
+}
+
+.novedades article div {
+    margin-left: 0.5em;
+}
+
+.novedades article a{
+    position: absolute;
+    right: 15px;
+    bottom: 0px;
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 1em 2em;
+    border-radius: 2em;
+    
+}
+.articles p{
+    font-size: 0.9em
+}
+
+
+.eventos{
+    width:65%;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.eventos h2 {
+    width:100%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    color: black;
+    font-size: 2em;
+}
+
+.articulos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eventos article{
+    width: 30%;
+    margin-top: 1em;
+
+}
+
+.eventos article img{
+    width: 100%;
+    margin-top: 1em;
+
+}
+.eventos div a{display: none;
+}
+
+.eventos div a:hover{display: inline-block;}
+
+.asterisco {
+    color: red;
+}
+
+form{
+    margin: auto;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+form input{
+    border-radius: 2em;
+    opacity: 0.8;
+    padding: 0.5em;
+    box-shadow: black;
+    outline: none;
+}
+
+label{ 
+    display:block;
+    font-weight: bold;
+}
+
+.spam{display: inline-block;}
+
+button{margin:0.5em 0;
+background: maroon;
+color: white;
+padding: 0.5em;
+border: none;
+border-radius:2em;
+outline: none;
+cursor:pointer}
+
+.formulario {
+     margin-top: 4em;
+}
+
+.formulario h2{ width: 100%; margin-bottom: 1em;
+font-weight: bold; font-size: 2em;}
+
+fieldset{margin-top: 1em; color: maroon;}
+fieldset label{display: inline-block;}
+
+
+
+.info{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 5em;
+    justify-content: space-between;
+}
+
+.info a{
+text-decoration:none;
+background: black;
+padding:1em;
+color:white;
+float:right;
+margin:1em;
+border-radius: 3em;}
+
+.info div{
+    width: 40%;
+}
+
+.info h2 {
+    color: white;
+    padding: 1em;
+    font-weight: bold;
+    background: black;
+    
+}
+
+.info p{
+    margin-top: 2em;
+    margin-left: 1em;
+    font-size: 1.4em;
+    color: white;
+    font-weight:bold;
+}
+
+table{
+    background: white;
+    border-spacing: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+.titles-table {
+    text-align: left;
+
+}
+
+.banner2{
+    width: 100%;
+    height: 400px;
+    animation: banner 10s infinite;
+}
+
+@keyframes banner{
+    0%, 45%{
+        background: url(img/backgroundimage.png) top ;
+        background-size: cover;
+        width: 100%;
+    }
+
+   
+    50%, 100%{
+        background: url(img/banner2.png);
+        background-size: cover;
+        
+    }
+}
+
+.rolls{
+    margin: auto; 
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1.5em;
+ 
+}
+
+.rolls h2{
+    width: 100%;
+    margin: 2em 0 1em 0;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.rolls article{
+    width:30%;
+    margin-top: 3em;
+}
+
+.rolls img{float: left;
+    margin-right: 1.2em;}
+
+.rolls a{
+    text-decoration: none;
+    padding: 1em 2em;
+    background: black;
+    color: white;
+    display: inline-block;
+    border-radius: 6em;
+    margin-top: 1.2em;
+
+}
+
+.rolls a:hover{
+    color: orangered;
+    transition: 0.5s color;
+}
+.rolls article.doble{
+    width: 70%;   
+}
+
+
+.tablas{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.tablas div{
+    width:40%;
+}
+
+.tablas img{float: left;
+margin-right: 1em;}
+
+.tablas a{
+    text-decoration: none;
+    padding: 1em 2em;
+    background: black;
+    color: white;
+    display: inline-block;
+    border-radius: 6em;
+    margin-top: 1.2em;
+
+}
+
+.verMas{margin: 2em ;}
+
+.verMas a{
+    text-decoration: none;
+    font-size: 1.5em;
+    display:flex;
+    margin: auto;
+    justify-content: center;
+    color: white;
+    background: black;
+    padding: 1.2em ;
+}
+.verMas a:hover{
+    color: orangered;
+}
+
+.tablasTitulo{
+    width: 100%;
+    margin: 4em 0 2em 0;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.animacion{
+    background:linear-gradient(rgb(156, 46, 9), rgb(23, 20, 13) );
+    padding: 0;
+    margin: 0;
+    height:fit-content;
+
+}
+
+.error404 b{
+    position: relative;
+    display: inline-block;
+    transform: rotateY(180deg);
+}
+.error404 img{
+    transition: 1s;
+    width: 60%;
+    margin: auto;
+}
+.error404 img:hover{
+    transform:translateX(600px)scale(2) rotate(720deg)
+}
+
+.error404{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: fit-content;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    font-size: 6em;
+    color: white;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+
+.error404 h4 {font-size: 20px;}
